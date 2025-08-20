@@ -35,7 +35,7 @@ export function TabPanels({children}:PropsWithChildren){
 	return <div className="flex-1">{children}</div>
 }
 
-export function Tabpanel({children, index} : PropsWithChildren<{index : number}>){
+export function TabPanel({children, index} : PropsWithChildren<{index : number}>){
 	const {activeTab} = useContext(TabContext);
 	return <div hidden={index === activeTab}>
 		{children}

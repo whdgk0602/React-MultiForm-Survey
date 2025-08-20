@@ -17,6 +17,12 @@ export default {
 			borderWidth:{
 				...px0_21,
 			},
+			borderRadius:{
+				...px0_21,
+			},
+			fontSize:{
+				...px0_201
+			},
 			colors,
 		},
   },
